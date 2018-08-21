@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutComponent } from './about.component';
 import { RouterModule } from '@angular/router';
-import { UserService } from '../user.service';
 
 @NgModule({
   imports: [
@@ -16,6 +15,6 @@ import { UserService } from '../user.service';
 
   ],
   declarations: [AboutComponent],
-  providers:[UserService]
+  providers:[]
 })
 export class AboutModule { }
